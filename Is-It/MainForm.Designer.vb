@@ -46,6 +46,7 @@
 		Me.buttonNew.TabIndex = 0
 		Me.buttonNew.Text = "New Game"
 		Me.buttonNew.UseVisualStyleBackColor = true
+		AddHandler Me.buttonNew.Click, AddressOf Me.ButtonNewClick
 		'
 		'buttonQuit
 		'
@@ -55,6 +56,7 @@
 		Me.buttonQuit.TabIndex = 0
 		Me.buttonQuit.Text = "Quit Game"
 		Me.buttonQuit.UseVisualStyleBackColor = true
+		AddHandler Me.buttonQuit.Click, AddressOf Me.ButtonQuitClick
 		'
 		'groupboxMenu
 		'
